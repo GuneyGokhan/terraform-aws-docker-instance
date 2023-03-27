@@ -13,6 +13,7 @@ provider "aws" {
 }
 
 module "docker_instance" {
-    source = "GuneyGokhan/docker-instance/aws"
-    key_name = "firstkey"
+    source = "devopswizard/docker-instance/aws"
+    key_name = "change-here"
 }
+```
